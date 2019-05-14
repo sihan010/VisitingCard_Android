@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Visiting Card</string>
+    <string name="myName">Mohimenoul Islam Sihan</string>
+    <string name="post">Post: Programmer</string>
+    <string name="speciality">Speciality:\n Mobile: React Native for Android and iOS Application Development, Native Android Development\n Web: NodeJS, Express, Pug, MongoDB, ASP.NET, SQL Server, Razor, MVC5, .NET Core, MySQL\n API: NodeJS, GraphQL\n Programming: C++, C#, Java, Python\n Desktop: ElectronJS, .NET Framework</string>
+    <string name="image_desc">Office Logo</string>
+</resources>

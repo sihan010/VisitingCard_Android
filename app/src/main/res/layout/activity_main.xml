@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@mipmap/itg"
+        android:maxWidth="400dp"
+        android:maxHeight="120dp"
+        android:contentDescription="@string/image_desc"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="@string/myName"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/post"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/speciality"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/colorAccent"/>
+
+</LinearLayout>
